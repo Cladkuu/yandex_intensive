@@ -5,6 +5,8 @@ import "fmt"
 func main() {
 	fmt.Println(skobki("()((()))()"))
 	fmt.Println(skobki("()(((()))()"))
+	fmt.Println(skobki("(()"))
+	fmt.Println(skobki(")"))
 }
 
 // ()((()))() - ok
